@@ -11,7 +11,11 @@
     {
       "type": "vcs",
       "url": "https://github.com/pantheon-systems/wordpress-composer"
-    }
+    },
+		{
+    "type": "vcs",
+    "url": "https://github.com/WordPress/wp-feature-notifications"
+		}
   ],
   "require": {
     "php": ">=7.3",
@@ -20,6 +24,7 @@
     "pantheon-systems/wordpress-composer": "*",
     "roots/wp-password-bcrypt": "^1.0.0",
     "vlucas/phpdotenv": "^3.1.0",
+    "wordpress/wp-feature-notifications": "dev-develop",
     "wpackagist-plugin/lh-hsts": "^1.24",
     "wpackagist-plugin/pantheon-advanced-page-cache": ">=0.3.0",
     "wpackagist-plugin/wp-native-php-sessions": ">=0.6.9",
